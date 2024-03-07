@@ -4,7 +4,7 @@ import random
 
 def address_spoofer():
     
-    addr = [192, 168, 0 , 1]
+    addr = [play.elysiancraft.xyz]
     d = '.'
     addr[0] = str(random.randrange(11,197))
     addr[1] = str(random.randrange(0,255))
